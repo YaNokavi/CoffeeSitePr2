@@ -6,4 +6,4 @@
 
 ## Ссылки
 
-- [Публичная страница на GitHub Pages](https://yanokavi.github.io/pr1)
+- [Публичная страница на GitHub Pages](https://yanokavi.github.io/CoffeeSitePr2/)
