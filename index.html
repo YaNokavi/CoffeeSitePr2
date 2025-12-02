@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Revo Coffee</title>
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
   </head>
@@ -19,8 +19,8 @@
 
     <main>
       <section class="firstSection" id="main">
-        <div class="firstPanel">
-          <h1>Твой персональный кофе</h1>
+        <div>
+          <h1 class="text-display-large">Твой персональный кофе</h1>
         </div>
 
         <div class="imagePanel"></div>
@@ -29,8 +29,8 @@
           <ul>
             <li><a href="#main">Главная</a></li>
             <li><a href="#description">Наш кофе</a></li>
-            <li><a href="#giftset">Подарочные наборы</a></li>
             <li><a href="#favorite">Каталог</a></li>
+            <li><a href="#giftset">Подарочные наборы</a></li>
             <li><a href="#combo">Комбо</a></li>
           </ul>
         </aside>
@@ -38,14 +38,14 @@
 
       <section class="secondSection" id="description">
         <div class="heading">
-          <span>Твой персональный кофе</span>
-          <h2>КОФЕ ДЛЯ ТЕБЯ</h2>
+          <span class="text-subtitle">Твой персональный кофе</span>
+          <h2 class="text-display-medium">КОФЕ ДЛЯ ТЕБЯ</h2>
         </div>
 
         <div class="description">
           <article>
             <img src="./assets/icons/ic.png" alt="Заведение" />
-            <h2><strong>Lorem</strong></h2>
+            <h2 class="text-title"><strong>Lorem</strong></h2>
             <span>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
               unde officiis, beatae quasi ducimus, sapiente officia minus
@@ -56,7 +56,7 @@
 
           <article>
             <img src="./assets/icons/IC-1.png" alt="Вкус" />
-            <h2><strong>Lorem</strong></h2>
+            <h2 class="text-title"><strong>Lorem</strong></h2>
             <span>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
               unde officiis, beatae quasi ducimus, sapiente officia minus
@@ -67,7 +67,7 @@
 
           <article>
             <img src="assets/icons/IC-2.png" alt="Упаковка" />
-            <h2><strong>Lorem</strong></h2>
+            <h2 class="text-title"><strong>Lorem</strong></h2>
             <span>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
               unde officiis, beatae quasi ducimus, sapiente officia minus
@@ -78,7 +78,7 @@
 
           <article>
             <img src="assets/icons/IC-3.png" alt="Способ приготовления" />
-            <h2><strong>Lorem</strong></h2>
+            <h2 class="text-title"><strong>Lorem</strong></h2>
             <span>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
               unde officiis, beatae quasi ducimus, sapiente officia minus
@@ -94,113 +94,160 @@
           <div class="firstBg"></div>
           <div class="secondBg"></div>
         </div>
-        <h2>Выбери свой кофе</h2>
+        <h2 class="text-display-medium">Выбери свой кофе</h2>
 
         <div class="coffeeCards">
           <div class="firstLine">
             <article>
               <img src="assets/img/IMAGE.png" alt="Revo Morning" />
-              <h4>REVO Morning</h4>
+              <div class="info">
+                <h4>REVO Morning</h4>
 
-              <p><strong>99.000 ₽</strong></p>
-              <button>Купить</button>
+                <p class="text-price">99.000 ₽</p>
+                <button class="text-button accent">Купить</button>
+              </div>
             </article>
 
             <article>
               <img src="assets/img/image-2.png" alt="Revo Everyday" />
-              <h4>REVO Everyday</h4>
+              <div class="info">
+                <h4>REVO Everyday</h4>
 
-              <p><strong>85.000 ₽</strong></p>
-              <button>Купить</button>
+                <p class="text-price">85.000 ₽</p>
+                <button class="text-button accent">Купить</button>
+              </div>
             </article>
 
             <article>
               <img src="assets/img/IMAGE-3.png" alt="Revo Honey" />
-              <h4>REVO Origin</h4>
+              <div class="info">
+                <h4>REVO Origin</h4>
 
-              <p><strong>135.000 ₽</strong></p>
-              <button>Купить</button>
+                <p class="text-price">135.000 ₽</p>
+                <button class="text-button accent">Купить</button>
+              </div>
             </article>
           </div>
 
           <div class="secondLine">
             <article>
               <img src="assets/img/IMAGE-3.png" alt="Revo Honey" />
-              <h4>REVO Origin</h4>
+              <div class="info">
+                <h4>REVO Origin</h4>
 
-              <p><strong>135.000 ₽</strong></p>
-              <button>Купить</button>
+                <p class="text-price">135.000 ₽</p>
+                <button class="text-button accent">Купить</button>
+              </div>
             </article>
 
             <article>
               <img src="assets/img/IMAGE-2.png" alt="Revo Đậm Đà" />
-              <h4>REVO Đậm Đà</h4>
+              <div class="info">
+                <h4>REVO Đậm Đà</h4>
 
-              <p><strong>75.000 ₽</strong></p>
-              <button>Купить</button>
+                <p class="text-price">75.000 ₽</p>
+                <button class="text-button accent">Купить</button>
+              </div>
             </article>
 
             <article>
               <img src="assets/img/IMAGE.png" alt="Revo Origin" />
-              <h4>REVO Origin</h4>
+              <div class="info">
+                <h4>REVO Origin</h4>
 
-              <p><strong>139.000 ₽</strong></p>
-              <button>Купить</button>
+                <p class="text-price">139.000 ₽</p>
+                <button class="text-button accent">Купить</button>
+              </div>
             </article>
           </div>
         </div>
       </section>
       <section class="fourthSection" id="giftset">
-        <h3>Лучший подарок для твоего друга</h3>
-        <h2>Подарочные наборы</h2>
+        <div class="backgroundGrid">
+          <div class="firstBg"></div>
+          <div class="secondBg"></div>
+        </div>
+        <h3 class="text-subtitle">Лучший подарок для твоего друга</h3>
+        <h2 class="text-display-medium">Подарочные наборы</h2>
 
         <article>
           <img src="assets/img/pr-0018-r.png" alt="Revo Morning" />
-          <h4>Giftset "Cà phê phin Việt Nam"</h4>
+          <div class="info">
+            <h4>Giftset "Cà phê phin Việt Nam"</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              error dignissimos at repellat similique fuga harum velit iste,
+              odio asperiores necessitatibus, quos quod porro dolorem alias
+              molestias. Eligendi, odio ipsam.
+            </p>
 
-          <img src="assets/icons/IC_coffee.png" alt="Иконка зерен" />
-          <p>Fine Robusta Blend</p>
-          <img src="assets/icons/IC_Mountain.png" alt="Иконка гор" />
-          <p>700 - 800m</p>
+            <div class="description">
+              <div class="moreInfo">
+                <img src="assets/icons/IC_coffee.png" alt="Иконка зерен" />
+                <p>Fine Robusta Blend</p>
+              </div>
+              <div class="moreInfo">
+                <img src="assets/icons/IC_Mountain.png" alt="Иконка гор" />
+                <p>700 - 800m</p>
+              </div>
+            </div>
 
-          <p><strong>285.000 ₽</strong></p>
-          <button>Купить</button>
-          <button>Подробнее</button>
+            <p class="text-price"><strong>285.000 ₽</strong></p>
+            <div>
+              <button class="text-button accent">Купить</button>
+              <button class="text-button">Подробнее</button>
+            </div>
+          </div>
         </article>
       </section>
 
-      <section
-        style="display: flex; flex-direction: row; align-items: center"
-        id="combo"
-      >
-        <h2>Наборы</h2>
+      <section class="fifthSection" id="combo">
+        <div class="backgroundGrid">
+          <div class="firstBg"></div>
+          <div class="secondBg"></div>
+        </div>
+        <h2 class="text-display-medium">Наборы</h2>
 
-        <article>
-          <img src="assets/img/image-6.png" alt="Комбо Revo Đậm Đà" />
-          <h4>Комбо Revo Đậm Đà</h4>
+        <div class="cards">
+          <article>
+            <img src="assets/img/image-6.png" alt="Комбо Revo Đậm Đà" />
+            <h4>Комбо Revo Đậm Đà</h4>
 
-          <p><strong>147.000 ₽</strong> <s>155.000 ₽</s></p>
-          <button>Купить</button>
-          <button>Подробнее</button>
-        </article>
+            <p class="text-price">
+              <strong>147.000 ₽</strong> <s class="text-price">155.000 ₽</s>
+            </p>
+            <div>
+              <button class="text-button accent">Купить</button>
+              <button class="text-button">Подробнее</button>
+            </div>
+          </article>
 
-        <article>
-          <img src="assets/img/image-7.png" alt="Комбо Revo Everyday" />
-          <h4>Комбо Revo Everyday</h4>
+          <article>
+            <img src="assets/img/image-7.png" alt="Комбо Revo Everyday" />
+            <h4>Комбо Revo Everyday</h4>
 
-          <p><strong>156.000 ₽</strong> <s>165.000 ₽</s></p>
-          <button>Купить</button>
-          <button>Подробнее</button>
-        </article>
+            <p class="text-price">
+              <strong>156.000 ₽</strong> <s class="text-price">165.000 ₽</s>
+            </p>
+            <div>
+              <button class="text-button accent">Купить</button>
+              <button class="text-button">Подробнее</button>
+            </div>
+          </article>
 
-        <article>
-          <img src="assets/img/image-8.png" alt="Комбо Revo Honey" />
-          <h4>Комбо Revo Honey</h4>
+          <article>
+            <img src="assets/img/image-8.png" alt="Комбо Revo Honey" />
+            <h4>Комбо Revo Honey</h4>
 
-          <p><strong>275.000 ₽</strong> <s>260.000 ₽</s></p>
-          <button>Купить</button>
-          <button>Подробнее</button>
-        </article>
+            <p class="text-price">
+              <strong>275.000 ₽</strong> <s class="text-price">260.000 ₽</s>
+            </p>
+            <div>
+              <button class="text-button accent">Купить</button>
+              <button class="text-button">Подробнее</button>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
 
